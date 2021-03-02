@@ -16,12 +16,13 @@ nav{
 
 }
 .aboutSection {
-    flex: 25%;
+    width: 25%;
     background-color: #D3D3D3;
   }
   
   .blogSection {
-    flex: 75%;
+
+    width: 75%;
   }
 main{
    
@@ -57,5 +58,28 @@ footer{
     display: flex;
      flex-direction: row;
     margin: 30px;
+    
+}
+
+@media screen and (max-width: 24rem){
+    main{
+        flex-direction: column;
+    
+    }
+    .aboutSection{
+        width: auto;
+        
+    }
+    .blogSection{
+        width: auto;
+    }
+    .blog{
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
 
 }
+
+
