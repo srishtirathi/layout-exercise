@@ -15,12 +15,12 @@ nav{
    margin: 0;
 
 }
-.flex-item-left {
+.aboutSection {
     flex: 25%;
     background-color: #D3D3D3;
   }
   
-  .flex-item-right {
+  .blogSection {
     flex: 75%;
   }
 main{
@@ -29,13 +29,11 @@ main{
     flex-direction: row;
      justify-content: space-around;
      text-align: center;
-
-
-     
-
-
 }
 
+.beach-img{
+    width:200px; 
+}
 article.div{
     background-color: violet;
 }
@@ -59,5 +57,5 @@ footer{
     display: flex;
      flex-direction: row;
     margin: 30px;
-    
+
 }
